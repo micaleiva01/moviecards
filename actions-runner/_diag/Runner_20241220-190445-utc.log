@@ -1,0 +1,119 @@
+[2024-12-20 19:04:45Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-12-20 19:04:45Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:45Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:45Z INFO HostContext] Well known config file 'Credentials': '/Users/Mica/Downloads/moviecards/actions-runner/.credentials'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'Runner': '/Users/Mica/Downloads/moviecards/actions-runner/.runner'
+[2024-12-20 19:04:46Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2024-12-20 19:04:46Z INFO Listener] RuntimeInformation: Darwin 24.1.0 Darwin Kernel Version 24.1.0: Thu Oct 10 21:02:27 PDT 2024; root:xnu-11215.41.3~2/RELEASE_X86_64.
+[2024-12-20 19:04:46Z INFO Listener] Version: 2.321.0
+[2024-12-20 19:04:46Z INFO Listener] Commit: e249007931b7c8e857797fa259c167f0bd4f997a
+[2024-12-20 19:04:46Z INFO Listener] Culture: en-US
+[2024-12-20 19:04:46Z INFO Listener] UI Culture: en-US
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO Listener] Validating directory permissions for: '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO CommandLineParser] Parse
+[2024-12-20 19:04:46Z INFO CommandLineParser] Parsing 1 args
+[2024-12-20 19:04:46Z INFO CommandLineParser] parsing argument
+[2024-12-20 19:04:46Z INFO CommandLineParser] HasArgs: False
+[2024-12-20 19:04:46Z INFO CommandLineParser] Adding Command: run
+[2024-12-20 19:04:46Z INFO Listener] Arguments parsed
+[2024-12-20 19:04:46Z INFO Runner] ExecuteCommand
+[2024-12-20 19:04:46Z INFO ConfigurationStore] currentAssemblyLocation: /Users/Mica/Downloads/moviecards/actions-runner/bin/Runner.Listener.dll
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] binPath: /Users/Mica/Downloads/moviecards/actions-runner/bin
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] RootFolder: /Users/Mica/Downloads/moviecards/actions-runner
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'Runner': '/Users/Mica/Downloads/moviecards/actions-runner/.runner'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] ConfigFilePath: /Users/Mica/Downloads/moviecards/actions-runner/.runner
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'Credentials': '/Users/Mica/Downloads/moviecards/actions-runner/.credentials'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] CredFilePath: /Users/Mica/Downloads/moviecards/actions-runner/.credentials
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/Mica/Downloads/moviecards/actions-runner/.credentials_migrated'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] MigratedCredFilePath: /Users/Mica/Downloads/moviecards/actions-runner/.credentials_migrated
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'Service': '/Users/Mica/Downloads/moviecards/actions-runner/.service'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/Mica/Downloads/moviecards/actions-runner/.service
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'help': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'version': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'check': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Command 'configure': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Command 'remove': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-12-20 19:04:46Z INFO ConfigurationManager] LoadSettings
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured()
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-20 19:04:46Z INFO ConfigurationManager] Is configured: True
+[2024-12-20 19:04:46Z INFO ConfigurationStore] Read setting file: 303 chars
+[2024-12-20 19:04:46Z INFO ConfigurationManager] Settings Loaded
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-12-20 19:04:46Z INFO CommandSettings] Command 'run': 'True'
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured()
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-20 19:04:46Z INFO ConfigurationManager] Is configured: True
+[2024-12-20 19:04:46Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2024-12-20 19:04:46Z INFO Runner] Set runner startup type - Manual
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-20 19:04:46Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-20 19:04:46Z INFO Runner] RunAsync
+[2024-12-20 19:04:46Z INFO ConfigurationManager] LoadSettings
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured()
+[2024-12-20 19:04:46Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-20 19:04:46Z INFO ConfigurationManager] Is configured: True
+[2024-12-20 19:04:46Z INFO ConfigurationManager] Settings Loaded
+[2024-12-20 19:04:46Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "MacBook-Pro-89",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/RvBFUHFv52M9qRhAeAO01DQO5WHgmW675A6qLnyfnVjmHLTtXO/",
+  "GitHubUrl": "https://github.com/micaleiva01/moviecards",
+  "WorkFolder": "_work"
+}
+[2024-12-20 19:04:46Z INFO MessageListener] Loading Credentials
+[2024-12-20 19:04:46Z INFO ConfigurationStore] HasCredentials()
+[2024-12-20 19:04:46Z INFO ConfigurationStore] stored True
+[2024-12-20 19:04:46Z INFO CredentialManager] GetCredentialProvider
+[2024-12-20 19:04:46Z INFO CredentialManager] Creating type OAuth
+[2024-12-20 19:04:46Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Bin': '/Users/Mica/Downloads/moviecards/actions-runner/bin'
+[2024-12-20 19:04:46Z INFO HostContext] Well known directory 'Root': '/Users/Mica/Downloads/moviecards/actions-runner'
+[2024-12-20 19:04:46Z INFO HostContext] Well known config file 'RSACredentials': '/Users/Mica/Downloads/moviecards/actions-runner/.credentials_rsaparams'
+[2024-12-20 19:04:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/Mica/Downloads/moviecards/actions-runner/.credentials_rsaparams
+[2024-12-20 19:04:46Z INFO MessageListener] Attempt to create session.
+[2024-12-20 19:04:46Z INFO MessageListener] Connecting to the Runner Server...
+[2024-12-20 19:04:46Z INFO RunnerServer] EstablishVssConnection
+[2024-12-20 19:04:46Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-12-20 19:04:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-20 19:04:46Z INFO RunnerServer] EstablishVssConnection
+[2024-12-20 19:04:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-20 19:04:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-20 19:04:46Z INFO RunnerServer] EstablishVssConnection
+[2024-12-20 19:04:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-20 19:04:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-20 19:04:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-20 19:04:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-20 19:04:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-20 19:04:47Z INFO MessageListener] VssConnection created
+[2024-12-20 19:04:47Z INFO Terminal] WRITE LINE: 
+[2024-12-20 19:04:47Z INFO Terminal] WRITE LINE: 
+[2024-12-20 19:04:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/Mica/Downloads/moviecards/actions-runner/.credentials_rsaparams
+[2024-12-20 19:04:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/Mica/Downloads/moviecards/actions-runner/.credentials_rsaparams
+[2024-12-20 19:04:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-20 19:04:48Z INFO MessageListener] Session created.
+[2024-12-20 19:04:48Z INFO Terminal] WRITE LINE: Current runner version: '2.321.0'
+[2024-12-20 19:04:48Z INFO Terminal] WRITE LINE: 2024-12-20 19:04:48Z: Listening for Jobs
+[2024-12-20 19:04:48Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-12-20 19:04:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/Mica/Downloads/moviecards/actions-runner/.credentials_rsaparams
+[2024-12-20 19:04:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
