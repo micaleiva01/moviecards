@@ -1,0 +1,34 @@
+#esqueleto del workflow/pipeline de mi proyecto
+
+name: Mi Primera Integracion Continua
+
+on: push
+
+jobs:
+
+  compiler: #esto es el nombre que cada uno le ponga, no es ningun termino de yaml, ni github ni nada
+    runs-on: ubuntu-latest
+    steps:
+      - name: empaquetado
+        run: echo "empaquetado"
+
+  test:
+    needs: compiler
+    runs-on: ubuntu-latest
+    steps:
+      - name: pruebas
+        run: echo "pruebas"
+
+  controlar_calidad:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: calidad
+        run: echo "calidad"
+
+  deploy:
+    needs: controlar_calidad
+    runs-on: ubuntu-latest
+    steps:
+      - name: despliegue
+        run: echo "despliegue"
