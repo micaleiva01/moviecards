@@ -19,8 +19,9 @@ jobs:
           distribution: "adopt"
 
       - name: Construir con Maven
-        run: mvn clean package -DskipTests
-        run: ls target/
+        run: 
+            mvn clean package -DskipTests
+            ls target/
 
       - name: Guardar paquete .jar para despues desplegar
         uses: actions/upload-artifact@v4
