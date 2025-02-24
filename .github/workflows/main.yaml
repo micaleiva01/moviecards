@@ -109,7 +109,7 @@ jobs:
         uses: trstringer/manual-approval@v1
         with:
           secret: ${{ secrets.TOKEN }}
-          approvers: josehilera
+          approvers: micaleiva01
 
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
