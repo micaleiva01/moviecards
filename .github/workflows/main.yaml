@@ -105,16 +105,22 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-    - name: Download artifact from build job
-      uses: actions/download-artifact@v4
-      with:
-        name: moviecards-java
+      - name: Aprobación manual
+        uses: trstringer/manual-approval@v1
+        with:
+          secret: ${{ secrets.TOKEN }}
+          approvers: josehilera
 
-    - name: Deploy to Azure Web App
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: 'moviecards-leiva'
-        slot-name: 'Production'
-        package: '*.jar'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEF0DDDABB424A78BF8551E7E981B3E1 }}
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: moviecards-java
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'moviecards-leiva'
+          slot-name: 'Production'
+          package: '*.jar'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEF0DDDABB424A78BF8551E7E981B3E1 }}
