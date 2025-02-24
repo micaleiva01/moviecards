@@ -4,7 +4,6 @@ name: Mi Primera Integracion Continua
 
 on: push
 
-
 jobs:
   build: #esto es el nombre que cada uno le ponga, no es ningun termino de yaml, ni github ni nada
     runs-on: ubuntu-latest
@@ -65,6 +64,7 @@ jobs:
 
       - name: Ejecutar las pruebas unitarias, de integración y end to end
         run: mvn clean verify
+
 
   qa:
     needs: test
