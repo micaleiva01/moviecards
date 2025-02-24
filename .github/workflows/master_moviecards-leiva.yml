@@ -33,6 +33,7 @@ jobs:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
 
+  #agregado para pruebas
   qa:
     needs: test
     runs-on: self-hosted
