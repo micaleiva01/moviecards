@@ -89,12 +89,12 @@ jobs:
           Dsonar.qualitygate.wait=true -Dsonar.login=admin -Dsonar.password=admin
 
 
-  #controlar_calidad:
-    #needs: test
-    #runs-on: ubuntu-latest
-    #steps:
-     # - name: calidad
-      #  run: echo "calidad"
+  controlar_calidad:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: calidad
+      run: echo "calidad"
 
 
   deploy:
