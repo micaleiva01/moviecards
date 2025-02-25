@@ -28,7 +28,6 @@ public class CardController {
 
 
     private final MovieService movieService;
-    //private final ActorService actorService;
     private final CardService cardService;
 
     @Autowired

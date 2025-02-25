@@ -20,11 +20,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class CardServiceImpl implements CardService {
 
-    //private final ActorService actorService;
     @Autowired
     ActorService actorService;
 
-    //private final MovieService movieService;
     @Autowired
     MovieService movieService;
 
