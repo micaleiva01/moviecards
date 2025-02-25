@@ -26,10 +26,9 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public List<Movie> getAllMovies() {
-        Movie[] movies = template.getForObject(url, Movie[].class);
-        List<Movie> moviesList = Arrays.asList(movies);
-        return moviesList;
+        return Arrays.asList(template.getForObject(url, Movie[].class));
     }
+    
 
 
     @Override
@@ -43,9 +42,10 @@ public class MovieServiceImpl implements MovieService {
         return movie;
     }
 
+    
     @Override
-    public Movie getMovieById(Integer movieId) {
-        Movie movie = template.getForObject(url+"/"+movieId, Movie.class);
-        return movie;
+        public Movie getMovieById(Integer movieId) {
+        return template.getForObject(url + "/" + movieId, Movie.class);
     }
+
 }

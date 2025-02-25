@@ -28,11 +28,9 @@ public class ActorServiceImpl implements ActorService {
 
     @Override
     public List<Actor> getAllActors() {
-        Actor[] actores = template.getForObject(url,
-        Actor[].class);
-        List<Actor> actoresList = Arrays.asList(actores);
-        return actoresList;
+    return Arrays.asList(template.getForObject(url, Actor[].class));
     }
+
 
     @Override
     public Actor save(Actor actor) {
@@ -47,7 +45,7 @@ public class ActorServiceImpl implements ActorService {
 
     @Override
     public Actor getActorById(Integer actorId) {
-        Actor actor = template.getForObject(url+"/"+actorId, Actor.class);
-        return actor;
+        return template.getForObject(url + "/" + actorId, Actor.class);
     }
+
 }
