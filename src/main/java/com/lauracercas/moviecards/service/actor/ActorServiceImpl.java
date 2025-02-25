@@ -19,19 +19,15 @@ import java.util.Arrays;
 @Service
 public class ActorServiceImpl implements ActorService {
 
-    //private final ActorJPA actorJPA;
 
     @Autowired
     RestTemplate template;
     String url = "https://moviecards-service-leiva.azurewebsites.net/actors";
 
-    //public ActorServiceImpl(ActorJPA actorJPA) {
-    //    this.actorJPA = actorJPA;
-    //}
+   
 
     @Override
     public List<Actor> getAllActors() {
-        //return actorJPA.findAll();
         Actor[] actores = template.getForObject(url,
         Actor[].class);
         List<Actor> actoresList = Arrays.asList(actores);
@@ -40,7 +36,6 @@ public class ActorServiceImpl implements ActorService {
 
     @Override
     public Actor save(Actor actor) {
-        //return actorJPA.save(actor);
         if (actor.getId() != null && actor.getId() > 0) {
             template.put(url, actor);
         } else {
@@ -52,7 +47,6 @@ public class ActorServiceImpl implements ActorService {
 
     @Override
     public Actor getActorById(Integer actorId) {
-        //return actorJPA.getById(actorId);
         Actor actor = template.getForObject(url+"/"+actorId, Actor.class);
         return actor;
     }

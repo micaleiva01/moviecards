@@ -24,16 +24,8 @@ public class MovieServiceImpl implements MovieService {
     String url = "https://moviecards-service-leiva.azurewebsites.net/movies";
 
 
-    //public MovieServiceImpl(MovieJPA movieJPA) {
-    //    this.movieJPA = movieJPA;
-    //}
-
-
-
-
     @Override
     public List<Movie> getAllMovies() {
-        //return movieJPA.findAll();
         Movie[] movies = template.getForObject(url, Movie[].class);
         List<Movie> moviesList = Arrays.asList(movies);
         return moviesList;
@@ -42,7 +34,6 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public Movie save(Movie movie) {
-        //return movieJPA.save(movie);
         if (movie.getId() != null && movie.getId() > 0) {
             template.put(url, movie);
         } else {
@@ -54,7 +45,6 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public Movie getMovieById(Integer movieId) {
-        //return movieJPA.getById(movieId);
         Movie movie = template.getForObject(url+"/"+movieId, Movie.class);
         return movie;
     }
